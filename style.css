@@ -1,0 +1,337 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body {
+    background:#F2F2F2;
+}
+
+.opening {
+    background-color: gainsboro;
+}
+
+.profile {
+    align-items: center;
+    gap: 30px;
+    font-size: 28px;
+    display: flex;
+    animation: fadeIn 3s ease;
+}
+
+
+.pilihan{
+    background-color:gainsboro ;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.pilihan a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.pilihan a:hover{
+    transform: translateY(-5px);
+    background-color: pink;
+}
+
+.desc {
+    background-color: gainsboro ;
+    width: 500px;
+    padding: 20px;
+    border: 1px solid black; 
+    border-radius: 10px;
+    animation: fadeIn 3s ease;
+    margin-bottom: 30px;
+}
+
+.now {
+    background-color: gainsboro ;
+    width: 500px;
+    padding: 20px;
+    border: 1px solid black; 
+    border-radius: 10px;
+    animation: fadeIn 3s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+===========
+about 
+===========
+.opening {
+    margin: 0;
+}
+
+.perkenalan, 
+.data-diri, 
+.hobi, 
+.pendidikan {
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto 25px auto;
+    background-color: gainsboro;
+    padding: 20px 25px;
+    padding-bottom: 3px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px darkgray;
+    animation: fadeIn 3s ease;
+    display: block;
+    align-items: center;
+}
+
+
+.home {
+    text-align: center;
+    margin: 30px 0 15px 0;
+}
+
+.home a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    transition: all 3s ease;
+}
+
+.home a:hover {
+    transform: translateY(-5px);
+    background-color: pink;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    margin-top: 20px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+=======
+project
+=======
+
+.daftarproject,
+.project1,
+.project2,
+.project3,
+.teknologi,
+.tabelringkasan {
+    width: 90%;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: gainsboro;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px darkgrey;
+    
+}
+
+
+.daftarproject h2 {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.project1 h3,
+.project2 h3,
+.project3 h3 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.daftarproject p,
+.project1 p,
+.project2 p,
+.project3 p {
+    font-size: 14px;
+}
+
+
+.project1 img,
+.project2 img,
+.project3 img {
+    float: left;
+    margin: 0 20px 10px 0;
+}
+
+
+.project1 a:hover,
+.project2 a:hover,
+.project3 a:hover {
+    transform: translateY(-20px);
+}
+
+
+.project1::after,
+.project2::after,
+.project3::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.teknologi ul {
+    line-height: 1.5;
+}
+
+
+.tabelringkasan {
+    overflow-x: auto;
+}
+
+.tabelringkasan table {
+    width: 50%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.tabelringkasan th,
+.tabelringkasan td {
+    padding: 12px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.tabelringkasan th {
+    background-color: darkgrey;
+}
+
+.project1:hover,
+.project2:hover,
+.project3:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 7px 18px darkgray;
+}
+
+.project1,
+.project2,
+.project3,
+.teknologi,
+.tabelringkasan,
+.daftarproject {
+    animation: fadeIn 5s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+=======
+contact
+=======
+.opening h1{
+    height: 70px;
+}
+
+
+===========
+exsperience
+===========
+
+.hima,
+.KI,
+.pengawas,
+.pj,
+.intern,
+.rotasi,
+.teman,
+.ortu {
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto 25px auto;
+    background-color: gainsboro;
+    padding: 20px 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px darkgray;
+}
+
+
+.hima img,
+.KI img,
+.pengawas img,
+.pj img,
+.intern img,
+.rotasi img,
+.teman img,
+.ortu img {
+    width: 240px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+    float: left;
+}
+
+
+.hima p,
+.KI p,
+.pengawas p,
+.pj p,
+.intern p,
+.rotasi p,
+.teman p,
+.ortu p {
+    line-height: 1.5;
+}
+
+
+.hima::after,
+.KI::after,
+.pengawas::after,
+.pj::after,
+.intern::after,
+.rotasi::after,
+.teman::after,
+.ortu::after {
+    content: "";
+    display: block;
+    clear: both;
+}
